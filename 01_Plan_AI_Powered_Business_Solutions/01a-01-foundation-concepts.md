@@ -46,7 +46,7 @@ flowchart TD
     Memory["🗂️ Memory"]
     Knowledge["📚 Knowledge Sources"]
     Middleware["🔒 Middleware"]
-    Response["📨 Response"]
+    Response["📨Response"]
 
     UserInput --> Agent
     Agent --> LLM
@@ -69,7 +69,19 @@ flowchart TD
 </figcaption>
 
 > **Key Concept:** Think of an AI agent as a smart assistant that can think, act, and learn, rather than just following fixed rules.
+---
 
+### The Five Pillars of AI Agents: LLM, Tools, Memory, Knowledge, and Middleware
+
+Modern AI agents are built on five essential components:
+
+- **LLM (Large Language Model):** The agent’s “brain,” responsible for understanding user intent, reasoning, and generating responses. In the Microsoft ecosystem, this is typically Azure OpenAI (GPT-4, GPT-4o).
+- **Tools:** Extend agent capabilities by enabling actions such as calling APIs, running business logic, or integrating with external systems. Tools allow agents to do more than just answer questions—they can automate tasks and interact with real-world data.
+- **Memory:** Maintains context across conversations, remembers previous interactions, and stores relevant information to personalize responses and support multi-turn dialogue.
+- **Knowledge:** Provides factual grounding by connecting agents to structured (Dataverse) and unstructured (Azure AI Search) data sources, ensuring responses are accurate and up-to-date.
+- **Middleware:** Handles governance, security, monitoring, and compliance. Middleware ensures agents operate safely, reliably, and within organizational policies.
+
+Together, these pillars enable AI agents to deliver intelligent, adaptive, and trustworthy solutions for business scenarios.
 ### Real-World Analogy
 
 - **Traditional automation:** Like a calculator—follows exact instructions, performs fixed operations, and cannot adapt if you ask for something unexpected.

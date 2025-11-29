@@ -98,6 +98,7 @@ flowchart TB
     end
     
     subgraph Output["📤 Outputs"]
+        Direction
         AutoResponse["Automated Response<br/>Draft with context"]
         Alert["Team Alert<br/>Prioritized queue"]
         Metrics["Performance Metrics<br/>Response times, accuracy"]

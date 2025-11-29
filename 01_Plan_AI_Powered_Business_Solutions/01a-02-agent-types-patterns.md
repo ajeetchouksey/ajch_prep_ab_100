@@ -116,6 +116,10 @@ flowchart TD
 
 **Figure 2:** Comprehensive decision tree for selecting agent types based on use case requirements, showing task agents, autonomous agents, prompt agents, and response agents.
 </figcaption>
+<figcaption style="text-align: center; font-style: italic; color: #666;">
+
+**Figure 2:** Comprehensive decision tree for selecting agent types based on use case requirements, showing task agents, autonomous agents, prompt agents, and response agents.
+</figcaption>
 
 ### Four Agent Types Explained
 
@@ -283,6 +287,10 @@ flowchart LR
 
 **Figure 3:** Single agent architecture showing how user input flows through LLM reasoning, tools, memory, and knowledge base to generate a response.
 </figcaption>
+<figcaption style="text-align: center; font-style: italic; color: #666;">
+
+**Figure 3:** Single agent architecture showing how user input flows through LLM reasoning, tools, memory, and knowledge base to generate a response.
+</figcaption>
 
 ---
 
@@ -413,13 +421,17 @@ flowchart LR
 
 **Figure 4:** Overview of five multi-agent orchestration patterns available in Microsoft Agent Framework.
 </figcaption>
+<figcaption style="text-align: center; font-style: italic; color: #666;">
+
+**Figure 4:** Overview of five multi-agent orchestration patterns available in Microsoft Agent Framework.
+</figcaption>
 
 ### Detailed Pattern Comparison
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#0078d4','primaryTextColor':'#323130','primaryBorderColor':'#005a9e','lineColor':'#0078d4','secondaryColor':'#00bcf2','tertiaryColor':'#50e6ff','fontSize':'15px','fontFamily':'Segoe UI, sans-serif','clusterBkg':'#f3f2f1','clusterBorder':'#0078d4','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   subgraph Sequential["➡️ Sequential Pattern"]
-    direction LR
+    direction TB
     S1["🔍 Agent 1<br/><span style='font-size:13px;color:#666;'>Research</span><br/><span style='font-size:12px;color:#888;'>Gather data</span>"] --> S2["📊 Agent 2<br/><span style='font-size:13px;color:#666;'>Analyze</span><br/><span style='font-size:12px;color:#888;'>Process info</span>"]
     S2 --> S3["📝 Agent 3<br/><span style='font-size:13px;color:#666;'>Report</span><br/><span style='font-size:12px;color:#888;'>Generate output</span>"]
     S1:::seqNode
@@ -443,7 +455,7 @@ flowchart TB
   end
 
   subgraph Handoff["🤝 Handoff Pattern"]
-    direction LR
+    direction TB
     H1["💼 Sales Agent<br/><span style='font-size:13px;color:#666;'>Initial contact</span><br/><span style='font-size:12px;color:#888;'>Qualify lead</span>"] -->|"Transfer context"| H2["🛠️ Support Agent<br/><span style='font-size:13px;color:#666;'>Technical help</span><br/><span style='font-size:12px;color:#888;'>Resolve issue</span>"]
     H2 -->|"Escalate"| H3["👔 Manager Agent<br/><span style='font-size:13px;color:#666;'>Handle exception</span><br/><span style='font-size:12px;color:#888;'>Final decision</span>"]
     H1:::handNode1
@@ -486,6 +498,10 @@ flowchart TB
   classDef groupNode3 fill:#fff4e1,stroke:#ff8c00,stroke-width:2px,rx:10,ry:10
   classDef consensusNode fill:#8764b8,stroke:#5c2d91,stroke-width:3px,color:#fff,rx:12,ry:12,font-weight:bold
 ```
+<figcaption style="text-align: center; font-style: italic; color: #666;">
+
+**Figure 5:** Detailed comparison of multi-agent orchestration patterns showing sequential, concurrent, handoff, and group chat coordination approaches.
+</figcaption>
 
 ### Pattern 1: Sequential Orchestration
 
@@ -678,6 +694,10 @@ flowchart TD
   class St decisionNode
   class Seq,Con,Chat,Hand,Mag patternNode
 ```
+<figcaption style="text-align: center; font-style: italic; color: #666;">
+
+**Figure 6:** Decision framework summary for selecting between single agents and various multi-agent orchestration patterns.
+</figcaption>
 <figcaption style="text-align: center; font-style: italic; color: #666;">
 
 **Figure 6:** Decision framework summary for selecting between single agents and various multi-agent orchestration patterns.
