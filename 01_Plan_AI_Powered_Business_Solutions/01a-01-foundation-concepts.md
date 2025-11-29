@@ -304,7 +304,7 @@ By mastering the agentic loop, you’ll be able to design agents that are not on
 
 ### Agentic Loop Sequence
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#61d3f0ff','primaryTextColor':'#0d0d0eff','primaryBorderColor':'#005a9e','lineColor':'#0078d4','secondaryColor':'#00bcf2','tertiaryColor':'#50e6ff','fontSize':'15px','fontFamily':'Segoe UI, sans-serif','clusterBkg':'#f3f2f1','clusterBorder':'#0078d4','edgeLabelBackground':'#ffffff'}}}%%
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#0078d4','primaryTextColor':'#323130','primaryBorderColor':'#005a9e','lineColor':'#0078d4','secondaryColor':'#00bcf2','tertiaryColor':'#50e6ff','fontSize':'14px','fontFamily':'Segoe UI, sans-serif','clusterBkg':'#f3f2f1','clusterBorder':'#0078d4','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     autonumber
     participant User as 👤 User
